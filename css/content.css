@@ -1,0 +1,167 @@
+.content{
+	width: 100%;
+}
+
+.container{
+	width: 1000px;
+	margin: 0 auto;
+	margin-top: 5px;
+}
+
+.slideshow{
+	height: 310px;
+	overflow: hidden;
+}
+
+.loading{
+	width: 156px;
+	margin: auto;
+	line-height: 310px;
+}
+
+.main{
+	height: 250px;
+	margin-top: 5px;
+}
+
+.news{
+	width: 340px;
+	height: 100%;
+	float: left;
+	border: 1px solid #E8E8E8;
+}
+
+.title{
+	height: 10%;
+	margin: 5px 0;
+}
+
+.title-left{
+	float: left;
+	line-height: 25px;
+	margin-left: 10px;
+}
+
+.title-right{
+	height: 7px;
+	float: right;
+	margin-top: 8px;
+	margin-right: 10px;
+}
+
+.pic-news{
+	height: 40%;
+	margin: 5px 0;
+}
+
+.pic-news img{
+	height: 100px;
+	float: left;
+	margin: 0 5px;
+}
+
+.pic-news div{
+	float: left;
+}
+
+.span-bold{
+	color: #C00;
+	font-weight: bold;
+}
+
+.pic-news span{
+	display: block;
+	line-height: 25px;
+}
+
+.pic-news a,.pic-news a:visited{
+	text-decoration: none;
+	color: #C00;
+}
+
+.news-list{
+	height: 50%;
+	margin: 5px 0;
+}
+
+.news-list a,.news-list a:visited{
+	text-decoration: none;
+	color: black;
+}
+
+.news-list a:hover,.news-list a:active{
+	color: #C00;
+}
+
+.news-list li{
+	list-style-image: url(../img/list.jpg);
+	line-height: 25px;
+	margin-left: 15px;
+	border-bottom: 1px dotted #CCC;
+}
+
+.news-list span{
+	float: right;
+}
+
+.course{
+	width: 410px;
+	height: 100%;
+	float: left;
+	margin-left: 7px;
+	margin-right: 7px;
+	border: 1px solid #E8E8E8;
+}
+
+.pic-course{
+	height: 40%;
+	margin: 5px 0;
+}
+
+.pic-course img{
+	height: 100px;
+	float: left;
+	margin: 0 5px;
+}
+
+.pic-course span{
+	display: block;
+	line-height: 25px;
+}
+
+.pic-course p{
+	line-height: 19px;
+}
+
+.course-list{
+	height: 50%;
+	margin: 5px 0;
+}
+
+.course-list a,.course-list a:visited{
+	text-decoration: none;
+	color: black;
+}
+
+.course-list a:hover,.course-list a:active{
+	color: #C00;
+}
+
+.course-list ul{
+	margin-top: 40px;
+	margin-left: 25px;
+}
+
+.course-list li{
+	float: left;
+	line-height: 25px;
+	margin-left: 15px;
+	font-size: 16px;
+}
+
+.media{
+	width: 230px;
+	height: 100%;
+	float: left;
+	border: 1px solid #E8E8E8;
+}

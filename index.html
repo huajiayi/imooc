@@ -1,0 +1,180 @@
+<!DOCTYPE HTML>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<script src="js/setHomeSetFav.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/myfocus-2.0.4.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery-1.4.4.min.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="css/init.css" />
+		<link rel="stylesheet" type="text/css" href="css/header.css" />
+		<link rel="stylesheet" type="text/css" href="css/content.css" />
+		<script type="text/javascript">
+			myFocus.set({
+				id: 'slide',
+				pattern: 'mF_fancy',
+				txtHeight: 0
+			});
+		</script>
+	</head>
+
+	<body>
+		<div class="header">
+			<div class="mainWrap">
+				<div class="top">
+					<ul>
+						<li>
+							<a href="javascript:voclass(0);">联系我们</a>
+						</li>
+						<li>
+							<a href="javascript:voclass(0);" onclick="AddFavorite('imooc',window.location)">加入收藏</a>
+						</li>
+						<li>
+							<a href="javascript:voclass(0);" onclick="SetHome(this,window.location)">设为首页</a>
+						</li>
+					</ul>
+				</div>
+				<!-- top end -->
+				<div class="logo">
+					<div class="logo-right">
+						<img src="img/tel.jpg" /> 24小时服务热线：
+						<span>123-456-7890</span>
+					</div>
+					<div class="logo-left">
+						<img src="img/logo.jpg" />
+					</div>
+				</div>
+				<!-- logo end -->
+				<div class="nav">
+					<div class="nav-menu">
+						<ul>
+							<li>
+								<a href="">首页</a>
+							</li>
+							<li>
+								<a href="">关于慕课</a>
+							</li>
+							<li>
+								<a href="">新闻动态</a>
+							</li>
+							<li>
+								<a href="">课程中心</a>
+							</li>
+							<li>
+								<a href="">在线课程</a>
+							</li>
+							<li>
+								<a href="">人才招聘</a>
+							</li>
+						</ul>
+					</div>
+					<div class="search">
+						<form action="" method="post">
+							<input type="text" class="search-text">
+							<span class="search-iron"></span>
+						</form>
+					</div>
+				</div>
+				<!-- nav end -->
+			</div>
+			<!-- mainWrap end -->
+		</div>
+		<!-- header end -->
+		<div class="content">
+			<div class="container">
+				<div class="slideshow" id="slide">
+					<div class="loading"></div>
+					<div class="pic">
+						<ul>
+							<li><img src="img/ad2.jpg" /></li>
+							<li><img src="img/ad3.jpg" /></li>
+							<li><img src="img/ad4.jpg" /></li>
+						</ul>
+					</div>
+				</div>
+				<!-- slideshow end -->
+				<div class="main">
+					<div class="news">
+						<div class="title">
+							<span class="title-left">
+								新闻中心
+							</span>
+							<a href="#">
+								<img class="title-right" src="img/more.jpg" />
+							</a>
+						</div>
+						<div class="pic-news">
+							<img src="img/news.jpg" />
+							<div>
+								<span class="span-bold">520&nbsp;幕女神喊你来表白！</span>
+								<span>活动时间：5月20日-5月25日</span>
+								<span>获奖公布时间：5月26日</span>
+								<span><a href="#">Learn More&gt;&gt;</a></span>
+							</div>
+						</div>
+						<div class="news-list">
+							<ul>
+								<li>
+									<a href="#">【慕课访谈 用户篇】“有为屌丝”在路上</a><span>2014-06-01</span>
+								</li>
+								<li>
+									<a href="#">【有奖活动】给父亲的三行书信</a><span>2014-06-01</span>
+								</li>
+								<li>
+									<a href="#">《程序猿，请晒出你的童年》活动获奖公告</a><span>2014-05-30</span>
+								</li>
+								<li>
+									<a href="#">【慕课访谈】破茧成蝶--美女程序猿的锐变史</a><span>2014-05-28</span>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<!-- news end -->
+					<div class="course">
+						<div class="title">
+							<span class="title-left">
+								课程中心
+							</span>
+							<a href="#">
+								<img class="title-right" src="img/more.jpg" />
+							</a>
+						</div>
+						<div class="pic-course">
+							<img src="img/css.jpg" />
+							<div>
+								<span class="span-bold">CSS圆角进化论</span>
+								<p>CSS圆角的实现，经历了三大发展阶段：背景图片方式、CSS2.0+HTMl标签模拟、CSS3.0圆角属性）。本案例详细讲解每一种的实现方式，并对 实现的优缺点进行对比分析。</p>
+							</div>
+						</div>
+						<div class="course-list">
+							<ul>
+								<li>
+									<a href="#">PHP开发</a>
+								</li>
+								<li>
+									<a href="#">前端开发</a>
+								</li>
+								<li>
+									<a href="#">JAVA开发</a>
+								</li>
+								<li>
+									<a href="#">Android开发</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<!-- course end -->
+					<div class="media">
+
+					</div>
+					<!-- media end -->
+				</div>
+				<!-- main end -->
+			</div>
+			<!-- container end -->
+		</div>
+		<!-- content end -->
+	</body>
+
+</html>
