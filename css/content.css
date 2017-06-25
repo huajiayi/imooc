@@ -89,6 +89,11 @@ span-bold.content{
 	color: #C00;
 }
 
+.pic-news a:hover,.pic-news a:active{
+	text-decoration: none;
+	color: #C00;
+}
+
 .news-list{
 	height: 50%;
 	margin: 5px 0;
