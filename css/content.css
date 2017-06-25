@@ -90,8 +90,7 @@ span-bold.content{
 }
 
 .pic-news a:hover,.pic-news a:active{
-	text-decoration: none;
-	color: #C00;
+	color: red;
 }
 
 .news-list{
