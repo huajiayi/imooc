@@ -74,10 +74,6 @@ span-bold.content{
 	color: #C00;
 }
 
-.span-bold a:hover,.span-bold a:active{
-	color: red;
-}
-
 .pic-news span{
 	display: block;
 	line-height: 25px;
