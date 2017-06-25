@@ -1,0 +1,111 @@
+.content{
+	width: 100%;
+}
+
+.container{
+	width: 1000px;
+	margin: 0 auto;
+	margin-top: 5px;
+}
+
+.slideshow{
+	height: 243px;
+	overflow: hidden;
+	margin-left: 3px;
+}
+
+.main{
+	width: 100%;
+	min-height: 350px;
+	_height: 350px;
+	margin-top: 5px;
+}
+
+.news-type{
+	width: 220px;
+	min-height: 350px;
+	_height: 350px;
+	float: left;
+	border: 1px solid #E8E8E8;
+	
+}
+
+.title{
+	height: 30px;
+	line-height: 30px;
+	text-indent: 2em;
+	background: url(../img/titile_bg.gif) repeat-x;
+	_border-bottom: 1px solid gray;
+	box-shadow: 0px 3px 10px #AAAAAA;
+}
+
+.news-type ul{
+	margin-top: 10px;
+}
+
+.news-type li{
+	line-height: 30px;
+}
+
+.news-type a,.news-type a:visited{
+	text-indent: 1.5em;
+	display: block;
+	text-decoration: none;
+	background: url(../img/li_bg.gif) no-repeat 5px center;
+	color: black;
+}
+
+.news-type a:hover,.news-type a:active{
+	background: url(../img/li_bg2.gif) no-repeat 5px center;
+	background-color: lightblue;
+}
+
+.news-center{
+	width: 770px;
+	min-height: 350px;
+	_height: 350px;
+	float: left;
+	margin-left: 6px;
+	border: 1px solid #E8E8E8;
+}
+
+.news-list{
+	margin: 5px 0;
+}
+
+.news-list a,.news-list a:visited{
+	text-decoration: none;
+	color: black;
+}
+
+.news-list a:hover,.news-list a:active{
+	color: #C00;
+}
+
+.news-list li{
+	list-style-image: url(../img/list.jpg);
+	line-height: 25px;
+	margin-left: 15px;
+	border-bottom: 1px dotted #CCC;
+}
+
+.news-list span{
+	float: right;
+}
+
+.page{
+	text-align: center;
+}
+
+.page a,.page a:visited{
+	display: inline-block;
+	margin: 5px;
+	padding: 5px 10px;
+	text-align: center;
+	border: 1px solid #E8E8E8;
+}
+
+.page a:hover,.page a:active{
+	color: #000;
+	background: lightgray;
+}

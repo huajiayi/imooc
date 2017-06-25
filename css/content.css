@@ -1,4 +1,4 @@
-.content{
+span-bold.content{
 	width: 100%;
 }
 
@@ -34,6 +34,7 @@
 .title{
 	height: 10%;
 	margin: 5px 0;
+	border-bottom: 1px solid gray;
 }
 
 .title-left{
@@ -67,6 +68,15 @@
 .span-bold{
 	color: #C00;
 	font-weight: bold;
+}
+
+.span-bold a,.span-bold a:visited{
+	text-decoration: none;
+	color: #C00;
+}
+
+.span-bold a:hover,.span-bold a:active{
+	color: red;
 }
 
 .pic-news span{
@@ -164,4 +174,16 @@
 	height: 100%;
 	float: left;
 	border: 1px solid #E8E8E8;
+}
+
+.video{
+	width: 100%;
+}
+
+.video embed{
+	margin-left: 5px;
+}
+
+.sidebar{
+	margin-top: 10px;
 }
